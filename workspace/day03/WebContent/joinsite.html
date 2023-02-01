@@ -8,9 +8,12 @@
 	<a href="/index">
             <img src="https://cdn.goob-ne.com/goobne/resources/assets/images/common/logo.svg" alt="logo">
     </a>
-	<h1 style = "text-align: center; width: 100%">회원가입</h1>
-	<p>기본 정보</p>
-	<div style="margin: 50">
+	<h1 style = "width: 100%; text-align: center;">회원가입</h1>
+
+	<div style="border-bottom : medium;">
+		<h2>기본 정보</h2> <p><i>*</i>표시는 반드시 입력하셔야 하는 항목입니다.</p>
+	</div>
+	<div style="margin: 200; width: 100%; ">
    <form name="joinForm">
       <p>
          이름 <input type="text" placeholder="이름을 입력해주세요." name="userName" required autocomplete="none">
@@ -18,12 +21,14 @@
       <p>
          아이디 <input type="text" placeholder="아이디를 입력해주세요." name="userId" required autocomplete="none"> <input type="button" value="중복확인">
       </p>
+      <div>
       <p>
          비밀번호 <input type="password" placeholder="비밀번호를 입력해 주세요." name="userPassword" required>
       </p>
       <p>
          비밀번호 확인 <input type="password" placeholder="비밀번호를 입력해 주세요." name="userPassword" required>
       </p>
+      </div>
       <div>
       <p>
          이메일 <input type="text" placeholder="이메일을 입력해 주세요." name="userEmail" required> <b>@</b> <input type="text" name="userEmail" required>
@@ -416,7 +421,7 @@
 	<br>
       <p>
          아이디 <input type="text" placeholder="아이디를 입력해주세요." name="userId" required autocomplete="none"> <input type="button" value="중복확인">
-      </p>	
+      </p>
 	<div style = "text-align: center;">
 		<input type="button" value="이전 단계" style = "width: 700">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="가입 완료" style = "width: 700">
 	</div>
